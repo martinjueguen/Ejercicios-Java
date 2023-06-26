@@ -6,7 +6,7 @@ public class A5 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
-		int num;
+		float num;
 		float pro=0;
 		float count=0;
 		int rta=1;
@@ -14,7 +14,7 @@ public class A5 {
 		int en;
 		while(rta == 1) {
 			System.out.println("ingrese un numero");
-			num = sc.nextInt();
+			num = sc.nextFloat();
 			pro=num+pro;
 			count++;
 			System.out.println("quiere agregar otro numero? (1 para si)");
